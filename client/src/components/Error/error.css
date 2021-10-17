@@ -1,0 +1,16 @@
+.div-error{
+    width: auto;
+    height: auto;
+    margin: 13rem 30rem;
+    text-align: center;
+}
+.div-error h1{
+    letter-spacing: 5px;
+    color: rgb(241, 89, 89);
+    font-family: 'Times New Roman', Times, serif;
+}
+.div-error p{
+    text-transform:uppercase;
+    font-weight: 200;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}

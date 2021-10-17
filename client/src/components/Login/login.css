@@ -1,0 +1,18 @@
+.login-row{
+    display: flex;
+    flex-direction: row;
+}
+.login-colright{
+    width: 50%;
+    padding: 4rem;
+}
+@media screen and (max-width:450px) {
+    .login-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .login-colright{
+        margin: 3rem 0 0rem -3rem;
+        padding-bottom: 0rem;
+    }
+}

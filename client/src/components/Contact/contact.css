@@ -1,0 +1,66 @@
+.main-div{
+    margin-top: 2rem;
+    margin-bottom: -3rem;
+}
+.col{
+    background-color: white;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.356);
+    margin: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+}
+.rows{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 10rem;
+}
+.icon{
+    margin-top: 3px;
+    font-size: 1.5rem;
+}
+.info{
+    padding-left: 1rem;
+}
+.div-con{
+    padding-left: 2rem;
+}
+h3.touch{
+    padding-top: 2rem;
+    font-weight: 500;
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.input-col{
+    padding-left: 5px;
+}
+.input-col input{
+    justify-content: space-between;
+    padding: .5rem;
+    margin: 1rem 10px 2rem 0;
+    width: 30%;
+}
+textarea{
+    padding: 1rem;
+    width: 98%;
+}
+
+@media screen and (max-width:450px) {
+    .rows{
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5rem;
+    }
+    .input-col{
+        display: flex;
+        flex-direction: column;
+    }
+    .input-col input{
+        width: auto;
+    }
+}
